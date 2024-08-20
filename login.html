@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piggy Bank - Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="main">
+        <div class="register-container">
+            <div class="register-box">
+                <h2>Login to Your Piggy Bank Account</h2>
+                <form id="loginForm" onsubmit="return login();">
+                    <div class="input-group">
+                        <label for="acno">Account Number</label>
+                        <input type="number" id="acno" name="acno" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    <button type="submit" class="register-btn">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer-left">
+            <h2>Piggy Bank</h2>
+            <p>Your trusted partner in saving for a brighter future. Start small, dream big, and watch your savings grow with Piggy Bank.</p>
+        </div>
+        <div class="footer-right">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+            </ul>
+            <p>© 2024 Piggy Bank. All Rights Reserved.</p>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+</html>
